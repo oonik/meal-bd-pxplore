@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meals BD Explore</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h1 class="text-center text-info">Exploring Meals BD</h1>
+    </header>
+    <main>
+        <section class="text-center mt-5">
+            <input id="Search-field" type="text" placeholder="Search by meals name">
+            <button onclick="searchFood()" class="btn btn-warning">Search</button>
+        </section>
+        <section class="container">
+            <h3>Meals Items</h3>
+            <div id="meals-container" class="row row-cols-1 row-cols-md-3 g-4">
+
+            </div>
+            
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="meal.js"></script>
+</body>
+</html>
